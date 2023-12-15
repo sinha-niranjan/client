@@ -46,7 +46,7 @@ const Login = ({ navigation }) => {
   // temp function to check local storage data
   const getLocalStoreageData = async () => {
     let data = await AsyncStorage.getItem("@auth");
-    console.log(data);
+    // console.log(data);
   };
   getLocalStoreageData();
   return (
