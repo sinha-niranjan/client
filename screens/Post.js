@@ -6,6 +6,9 @@ import FooterMenu from "../components/Menus/FooterMenu";
 const Post = () => {
   return (
     <View style={styles.container}>
+      <View style={{alignItems:'center'}}>
+        <Text>Create a post </Text>
+      </View>
       <View style={{ flex: 1, justifyContent: "flex-end" }}>
         <FooterMenu />
       </View>
