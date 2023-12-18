@@ -37,7 +37,7 @@ const PostCard = ({ posts, myPostScreen }) => {
       setLoading(false);
       // console.log(data);
       alert(data?.message);
-      navigation.navigate("Home");
+      navigation.push("Myposts");
     } catch (error) {
       setLoading(false);
       console.log(error);
